@@ -29,7 +29,8 @@ var campgroundSchema = new mongoose.Schema({
     rating: {
         type: Number,
         default: 0
-    }
+    },
+   price: String
 });
 
 module.exports = mongoose.model("Campground", campgroundSchema);
