@@ -39,6 +39,8 @@ To see the app in action, go to [https://davidn-yelpcamp-refactored.herokuapp.co
 
 ## Upcoming features
 
+* Nice UI
+
 * Authentication:
   * Admin sign-up with admin code
 
