@@ -107,4 +107,4 @@ Some comments in the source code are course notes and therefore might not seem n
 
 * [Heroku](https://www.heroku.com/)
 * [Cloud9](https://aws.amazon.com/cloud9/?origin=c9io)
-## License
+
