@@ -55,7 +55,7 @@ To see the app in action, go to [https://davidn-yelpcamp-refactored.herokuapp.co
   * Search existing campgrounds
 
 * Manage user account with basic functionalities:
-  * ~~Password reset via email confirmation~~
+  * Password reset via email confirmation
 
 
 ## Getting Started
