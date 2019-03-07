@@ -4,7 +4,7 @@
 
 ## Live App
 
-To see the app in action, go to [https://davidn-yelpcamp-refactored.herokuapp.com/](https://davidn-yelpcamp-refactored.herokuapp.com/)
+To see the app in action, go to [https://davidn-yelp-camp.herokuapp.com/](https://davidn-yelp-camp.herokuapp.com/)
 
 ## Features
 
