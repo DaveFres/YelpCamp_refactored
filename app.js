@@ -55,6 +55,7 @@ app.use("/", indexRoutes);
 app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 app.use("/campgrounds/:id/reviews", reviewRoutes);
+app.use("/campgrounds", campgroundRoutes);
 
 //process.env.PORT, process.env.IP
 app.listen(3000, function(){
