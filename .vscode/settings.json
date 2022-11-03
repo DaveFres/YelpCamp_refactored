@@ -1,0 +1,6 @@
+{
+    "python.testing.pytestArgs": [
+        "middleware"
+    ],
+    "python.testing.unittestEnabled": false
+}

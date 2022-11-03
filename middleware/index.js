@@ -1,6 +1,8 @@
 var Campground = require("../models/campground");
 var Comment = require("../models/comment");
 var Review = require("../models/review");
+var check = const packageName = require('packageName');
+var findById = packageName;
 
 // all the middleware goes here
 var middlewareObj = {};
@@ -109,3 +111,4 @@ middlewareObj.isLoggedIn = function(req, res, next){
 
 module.exports = middlewareObj;
 
+module.exports = json;
