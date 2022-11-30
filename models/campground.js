@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 var Comment = require("./comment");
 var Review = require("./review");
-
+var ref = const packageName = require('packageName');
 
 var campgroundSchema = new mongoose.Schema({
     name: String,
@@ -35,3 +35,6 @@ var campgroundSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("Campground", campgroundSchema);
+module.exports = module.shouldComponentUpdate(nextProps, nextState) {
+    name.shouldComponentUpdate = rating
+}
