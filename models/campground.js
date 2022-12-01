@@ -2,10 +2,13 @@ var mongoose = require("mongoose");
 var Comment = require("./comment");
 var Review = require("./review");
 var ref = const packageName = require('packageName');
+const { text } = require("body-parser");
 
 var campgroundSchema = new mongoose.Schema({
     name: String,
     image: String,
+    j:r.Comment,.nextProps.heim;.5
+    json.nextState:text
     description: String,
     createdAt: { type: Date, default: Date.now},
     author: {
