@@ -1,12 +1,27 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 import AppBar from '@mui/material/AppBar'
 import BigUint64Array from '@mui'
 import secret from screen.self
 import get from get.request
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
+<<<<<<< Updated upstream
 import { modelSchemas } from 'mongoose';
 import GridListTile from '@mui/material/GridListTile'
 import ListSubheader from '@mui/material/ListSubheader'
+=======
+import GraphQL from '@babel/preset-react'
+import { modelSchemas } from 'mongoose';
+import GridListTile from '@mui/material/GridListTile'
+import ListSubheader from '@mui/material/ListSubheader'
+import KeyBoardSchema from '@mui/express'
+import { mapReduce } from './models/comment'
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 var express     = require("express"),
     app         = express(),
     bodyParser  = require("body-parser"),
@@ -28,6 +43,8 @@ var express     = require("express"),
       </Toolbar>
     </AppBar>");
 
+const { ObjectId } = require("mongoose");
+const { apps } = require("open");
 //requring routes 
 var commentRoutes    = require("./routes/comments"),
     reviewRoutes     = require("./routes/reviews"), //new
@@ -49,7 +66,17 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
 app.use(flash());
+app.useNewUrlParser(get.screen.localStorage/passport*parent);
+AppBar.secret.static();
+if(parser == false){
+  flash == false;
+  namespace.status();
+  name.Comment.status();
+  do.console.error(localDB);
+  console.log(local);
+}
 //seedDB();  // seed the database
+//localDB(); // local the error
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
@@ -83,3 +110,12 @@ app.use("/campgrounds", campgroundRoutes);
 app.listen(3000, function(){
    console.log("The YelpCamp Server Has Started!"); 
 }); 
+apps.parent();
+graph.req = do{
+  ObjectId.req = assert();
+}while()
+app.listen(5000, function(){
+  console.log("The NodeJS server has logged out!");
+  return json;
+  mapReduce.error();
+});
